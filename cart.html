@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | Shree Revansiddeshwar Automobiles</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="home.html">
+            🏍 Shree Revansiddeshwar Automobiles
+        </a>
+
+        <div>
+            <a href="products.html" class="btn btn-light">Continue Shopping</a>
+        </div>
+
+    </div>
+</nav>
+
+<div class="container mt-5">
+
+    <h2 class="text-center mb-4">🛒 Shopping Cart</h2>
+
+    <table class="table table-bordered table-hover text-center align-middle">
+
+        <thead class="table-primary">
+
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Action</th>
+            </tr>
+
+        </thead>
+
+<tbody id="cart-items">
+
+</tbody>
+
+    </table>
+    <div class="row mt-4">
+
+    <div class="col-md-6"></div>
+
+    <div class="col-md-6">
+
+        <div class="card">
+
+            <div class="card-body">
+
+                <h4>
+
+                    Grand Total :
+
+                    ₹<span id="grand-total">0</span>
+
+                </h4>
+
+                <a href="checkout.html"
+                   class="btn btn-success w-100 mt-3">
+
+                    Proceed to Checkout
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+</div>
+<script src="js/cart.js"></script>
+</body>
+</html>
